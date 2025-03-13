@@ -1,8 +1,25 @@
 [font]
 
-normal.family = "Inconsolata Nerd Font Mono"
-bold.family = "Inconsolata Nerd Font Mono"
-italic.family = "Inconsolata Nerd Font Mono"
-bold_italic.family = "Inconsolata Nerd Font Mono"
+size = 10.0
 
-size = 8.0
+[font.normal]
+family = "Inconsolata Nerd Font Mono"
+
+[colors.normal]
+black = "#000000"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#0bbfff"
+magenta = "#ff79c6"
+cyan = "#8be9fd"
+white = "#f8f8f2"
+
+[colors.primary]
+background = "#000000"
+foreground = "#f8f8f2"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#FF0000"
+

@@ -5,38 +5,36 @@ opacity = 1.0
 dynamic_title = true
 
 [font]
-size = 8.5
+normal = {family = 'Fixedsys Excelsior', style = "Regular"}
+size = 10.0
 
-[font.normal]
-family = "FiraCode Nerd Font Mono"
-
-# Normal colors
-[colors.normal]
-black = "0x26233a"
-red = "0xeb6f92"
-green = "0x9ccfd8"
-yellow = "0xf6c177"
-blue = "0x31748f"
-magenta = "0xc4a7e7"
-cyan = "0xebbcba"
-white = "0xe0def4"
-
-# Bright colors
-[colors.bright]
-black = "0x6e6a86"
-red = "0xeb6f92"
-green = "0x9ccfd8"
-yellow = "0xf6c177"
-blue = "0x31748f"
-magenta = "0xc4a7e7"
-cyan = "0xebbcba"
-white = "0xe0def4"
+# Falcon colorscheme for Alacritty
+# by fenetikm, https://github.com/fenetikm/falcon
 
 [colors.primary]
-background = "#000000"
-foreground = "#f8f8f2"
+background = "#020221"
+foreground = "#b4b4b9"
 
 [colors.cursor]
-text = "#000000"
-cursor = "#ff0000"
+text = "#020221"
+cursor = "#ffe8c0"
 
+[colors.normal]
+black   = "#000004"
+red     = "#ff3600"
+green   = "#859933"
+yellow  = "#ffc552"
+blue    = "#635196"
+magenta = "#ff761a"
+cyan    = "#34bfa4"
+white   = "#b4b4b9"
+
+[colors.bright]
+black   = "#020221"
+red     = "#ff8e78"
+green   = "#b2bc55"
+yellow  = "#ffd392"
+blue    = "#99a4bc"
+magenta = "#ffb07b"
+cyan    = "#8bccbf"
+white   = "#f8f8ff"
